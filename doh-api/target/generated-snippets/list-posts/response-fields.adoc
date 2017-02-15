@@ -1,0 +1,40 @@
+|===
+|Path|Type|Description
+
+|`[].id`
+|`Number`
+|The post' ID
+
+|`[].title`
+|`String`
+|The posts' title
+
+|`[].content`
+|`String`
+|The posts' content
+
+|`[].uuid`
+|`String`
+|The posts' content
+
+|`[].createdDate`
+|`Object`
+|The posts' creation date
+
+|`[].createdBy`
+|`Null`
+|The posts' created by
+
+|`[].updatedDate`
+|`Object`
+|The posts' update data
+
+|`[].updatedBy`
+|`Null`
+|The posts' updated by
+
+|`[].version`
+|`Number`
+|The posts' version
+
+|===

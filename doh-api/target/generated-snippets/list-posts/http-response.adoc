@@ -1,0 +1,408 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 8991
+
+[ {
+  "id" : 1,
+  "uuid" : "b2fb397e-4d22-4d61-8dad-00bd7549c43c",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 0,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 0,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #1",
+  "content" : "Sample blog post content #1"
+}, {
+  "id" : 2,
+  "uuid" : "f24c67e2-eb12-45ed-8b5b-12ecf5f17439",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 61000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 61000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #2",
+  "content" : "Sample blog post content #2"
+}, {
+  "id" : 3,
+  "uuid" : "4da39e6c-92c4-4d84-8de5-957c2248a523",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 65000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 65000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #3",
+  "content" : "Sample blog post content #3"
+}, {
+  "id" : 4,
+  "uuid" : "b72c6ea8-4358-4398-8c53-29d89411cbd7",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 68000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 68000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #4",
+  "content" : "Sample blog post content #4"
+}, {
+  "id" : 5,
+  "uuid" : "2173ff80-47a8-4a0b-991d-3b57946fae1e",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 72000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 72000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #5",
+  "content" : "Sample blog post content #5"
+}, {
+  "id" : 6,
+  "uuid" : "eb225835-7a52-4b00-b839-3ddcd040a81d",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 76000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 76000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #6",
+  "content" : "Sample blog post content #6"
+}, {
+  "id" : 7,
+  "uuid" : "c78dcda4-ed84-42f0-9d5c-c5a3d8b385da",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 79000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 79000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #7",
+  "content" : "Sample blog post content #7"
+}, {
+  "id" : 8,
+  "uuid" : "baba89ce-9f76-4d09-a4ab-a4c17415ba8d",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 83000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 83000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #8",
+  "content" : "Sample blog post content #8"
+}, {
+  "id" : 9,
+  "uuid" : "7187253f-a4b9-453a-a43e-fec3716d8fd0",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 87000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 87000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #9",
+  "content" : "Sample blog post content #9"
+}, {
+  "id" : 10,
+  "uuid" : "f6dc22f4-d624-4513-bd2a-eec971b33ff8",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 90000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 90000000,
+    "second" : 41,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title #10",
+  "content" : "Sample blog post content #10"
+} ]
+----

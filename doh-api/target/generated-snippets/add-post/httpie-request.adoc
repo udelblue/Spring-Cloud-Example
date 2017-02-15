@@ -1,0 +1,14 @@
+[source,bash]
+----
+$ echo '{
+  "id" : null,
+  "uuid" : "4be86487-683a-4ef2-afde-67c1cb60c2b8",
+  "createdDate" : null,
+  "createdBy" : null,
+  "updatedDate" : null,
+  "updatedBy" : null,
+  "version" : null,
+  "title" : "Sample blog post title for testing",
+  "content" : "Sample blog post content"
+}' | http POST 'http://localhost:8080/posts/' 'Content-Type:application/json'
+----

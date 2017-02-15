@@ -1,0 +1,25 @@
+# SERVICE VERSION
+info:
+    version: 1
+
+# PROFILES
+spring:
+    application.name: api-service
+    profiles.active: standalone
+
+---
+
+spring:
+    profiles: docker
+    cloud:
+        config:
+            uri: http://config-service:8898
+
+---
+
+spring:
+    profiles: standalone
+    cloud:
+        config:
+            uri: http://localhost:8898
+

@@ -1,0 +1,48 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 907
+
+{
+  "id" : 11,
+  "uuid" : "4be86487-683a-4ef2-afde-67c1cb60c2b8",
+  "createdDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 472000000,
+    "second" : 52,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "createdBy" : null,
+  "updatedDate" : {
+    "month" : "JANUARY",
+    "year" : 2017,
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 4,
+    "monthValue" : 1,
+    "hour" : 10,
+    "minute" : 22,
+    "nano" : 472000000,
+    "second" : 52,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "updatedBy" : null,
+  "version" : 0,
+  "title" : "Sample blog post title for testing",
+  "content" : "Sample blog post content"
+}
+----
