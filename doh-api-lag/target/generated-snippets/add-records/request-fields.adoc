@@ -1,0 +1,48 @@
+|===
+|Path|Type|Description
+
+|`first_name`
+|`String`
+|The record' first_name
+
+|`last_name`
+|`String`
+|The record' last_name
+
+|`dob`
+|`Null`
+|The record' dob
+
+|`comments`
+|`String`
+|The record' comments
+
+|`id`
+|`Null`
+|The record' ID
+
+|`uuid`
+|`String`
+|The records' content
+
+|`createdDate`
+|`Null`
+|The records' creation date
+
+|`createdBy`
+|`Null`
+|The records' created by
+
+|`updatedDate`
+|`Null`
+|The records' update data
+
+|`updatedBy`
+|`Null`
+|The records' updated by
+
+|`version`
+|`Null`
+|The records' version
+
+|===

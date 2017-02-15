@@ -1,0 +1,4 @@
+com\doh\DOHAuthApplication.class
+com\doh\auth\controllers\rest\AuthRestController.class
+com\doh\auth\config\OAuth2AuthorizationConfig.class
+com\doh\auth\config\SecurityConfig.class

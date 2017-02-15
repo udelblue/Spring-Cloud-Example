@@ -1,0 +1,16 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/records/' -i -X POST -H 'Content-Type: application/json' -d '{
+  "id" : null,
+  "uuid" : "62a2235f-a6f4-4d9b-bcde-fd73605f12f6",
+  "createdDate" : null,
+  "createdBy" : null,
+  "updatedDate" : null,
+  "updatedBy" : null,
+  "version" : null,
+  "first_name" : "Tom",
+  "last_name" : "Tester",
+  "dob" : null,
+  "comments" : "test"
+}'
+----

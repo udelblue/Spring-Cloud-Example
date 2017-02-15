@@ -1,0 +1,21 @@
+[source,http,options="nowrap"]
+----
+POST /records/ HTTP/1.1
+Content-Type: application/json
+Host: localhost:8080
+Content-Length: 281
+
+{
+  "id" : null,
+  "uuid" : "62a2235f-a6f4-4d9b-bcde-fd73605f12f6",
+  "createdDate" : null,
+  "createdBy" : null,
+  "updatedDate" : null,
+  "updatedBy" : null,
+  "version" : null,
+  "first_name" : "Tom",
+  "last_name" : "Tester",
+  "dob" : null,
+  "comments" : "test"
+}
+----

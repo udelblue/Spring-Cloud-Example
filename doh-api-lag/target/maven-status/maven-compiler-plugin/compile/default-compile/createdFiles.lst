@@ -1,0 +1,11 @@
+com\doh\api\domain\user\User.class
+com\doh\api\domain\people\PersonRecord.class
+com\doh\api\config\JpaConfig.class
+com\doh\api\controllers\rest\TestRestController.class
+com\doh\api\domain\base\AuditedEntity.class
+com\doh\api\config\SecurityConfig.class
+com\doh\api\controllers\rest\PersonRecordRestController.class
+com\doh\api\domain\user\UserRepository.class
+com\doh\DOHApiApplication.class
+com\doh\api\domain\base\BaseEntity.class
+com\doh\api\domain\people\PersonRecordRepository.class

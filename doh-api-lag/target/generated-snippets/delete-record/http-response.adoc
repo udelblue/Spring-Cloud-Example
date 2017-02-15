@@ -1,0 +1,8 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Content-Length: 604
+
+{"id":1,"uuid":"cc038b9d-45de-4bbe-82c2-1af04f3b5735","createdDate":{"month":"JANUARY","year":2017,"dayOfMonth":5,"dayOfWeek":"THURSDAY","dayOfYear":5,"hour":11,"minute":43,"nano":797000000,"second":11,"monthValue":1,"chronology":{"id":"ISO","calendarType":"iso8601"}},"createdBy":null,"updatedDate":{"month":"JANUARY","year":2017,"dayOfMonth":5,"dayOfWeek":"THURSDAY","dayOfYear":5,"hour":11,"minute":43,"nano":797000000,"second":11,"monthValue":1,"chronology":{"id":"ISO","calendarType":"iso8601"}},"updatedBy":null,"version":0,"first_name":"Tom ","last_name":"Tester ","dob":null,"comments":"testing"}
+----
