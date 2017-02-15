@@ -1,0 +1,66 @@
+# EMBEDDED SERVER CONFIGURATION
+server:
+    port: ${port:8090}
+
+spring:
+    aop:
+        proxyTargetClass: true
+
+        
+# EUREKA
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+# ZULL
+zuul:
+  routes:
+    auth-service:
+      sensitiveHeaders:
+      path: /oauth/**
+      stripPrefix: false
+    # ai-service should be moved to path other than /
+    api-service:
+      sensitiveHeaders:
+      path: /api/**
+      stripPrefix: true
+    
+  add-proxy-headers: true
+#SECURITY
+security:
+  basic:
+    enabled: false
+  oauth2:
+    sso:
+      loginPath: /login
+    resource:
+      id: openid
+      serviceId: ${PREFIX:}resource
+
+# LOGGING
+#logging.level.org.springframework.security: DEBUG
+
+---
+
+spring:
+  profiles: docker
+
+# EUREKA
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-service:8091/eureka/
+
+---
+
+spring:
+  profiles: standalone
+
+# EUREKA
+eureka:
+  instance:
+    hostname: localhost
+    port: 8091
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/

@@ -1,0 +1,5 @@
+com\doh\cons\Profiles.class
+com\doh\dto\commons\ValueObject.class
+com\doh\ui\controllers\error\ErrorHandlerController.class
+com\doh\utils\EnvironmentProvider.class
+com\doh\dto\error\ServerErrorDTO.class

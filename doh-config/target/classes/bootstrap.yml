@@ -1,0 +1,27 @@
+# PROFILES
+spring:
+    application.name: config-service
+    profiles.active: native
+    aop:
+        proxyTargetClass: true
+
+
+# SERVICE VERSION
+info:
+    version: 1
+
+# EMBEDDED SERVER CONFIGURATION
+server:
+    port: ${port:8898}
+
+---
+
+spring:
+  profiles: docker
+
+
+---
+
+spring:
+  profiles: standalone
+

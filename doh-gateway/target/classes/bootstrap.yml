@@ -1,0 +1,27 @@
+# SERVICE VERSION
+info:
+    version: 1
+
+# PROFILES
+spring:
+    application.name: gateway-service
+    profiles.active: standalone
+    cloud:
+        config:
+            failFast: true
+---
+
+spring:
+    profiles: docker
+    cloud:
+        config:
+            uri: http://config-service:8898
+
+---
+
+spring:
+    profiles: standalone
+    cloud:
+        config:
+            uri: http://localhost:8898
+

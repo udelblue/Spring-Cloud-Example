@@ -1,0 +1,8 @@
+# PROFILES
+spring:
+    profiles.active: default
+
+# SERVICE VERSION
+info:
+    version: 1
+

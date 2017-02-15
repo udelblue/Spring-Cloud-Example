@@ -1,0 +1,42 @@
+
+# EMBEDDED SERVER CONFIGURATION
+server:
+    port: ${port:8091}
+    error.whitelabel.enabled: false
+
+# EUREKA
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
+    waitTimeInMsWhenSyncEmpty: 0
+# LOGGING
+#logging.level.org.springframework.security: DEBUG
+
+---
+
+spring:
+  profiles: docker
+
+# EUREKA
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-service:8091/eureka/
+
+---
+
+spring:
+  profiles: standalone
+
+# EUREKA
+eureka:
+  environment: dev
+  instance:
+    hostname: localhost
+    port: 8091
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
