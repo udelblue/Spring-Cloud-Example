@@ -18,10 +18,10 @@
         <module>doh-auth</module>
         <module>doh-gateway</module>
         <module>doh-api</module>
-		<module>doh-api-lag</module>
+	<module>doh-api-lag</module>
         <module>doh-config</module>
         <module>doh-admin</module>
-		<module>doh-tracing</module>
+	<module>doh-tracing</module>
     </modules>
 
     <properties>
